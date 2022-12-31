@@ -52,9 +52,15 @@
             <input type="date" name="dob" id="dob" min="01/01/1920" max="01/01/2015">
             <label for="pass" title="Password">Password</label>
             <input type="password" name="pass" id="pass" minlength="8" maxlength="16" placeholder="Set Your Password (Minimum 8 characters)">
-            <label for="noti">Want to get latest notifications on email?</label>
-            <input type="radio" name="noti" value="yes">Yes
-            <input type="radio" name="noti" value="no">No
+            <fieldset>
+                <legend>Want to get latest notifications on email?</legend>
+                <label>
+                    <input type="radio" name="noti" value="yes">Yes
+                </label>
+                <label>
+                    <input type="radio" name="noti" value="no">No
+                </label>
+            </fieldset>
             <button type="submit" class="subm">Sign Up !</button>
         </form>
     </section>
