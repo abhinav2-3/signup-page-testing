@@ -127,6 +127,10 @@ footer{
     margin-top: 50px;
 }
 
+legend{
+    padding-top: 20px;
+}
+
 p{
     margin: 0;
     padding: 5px;
