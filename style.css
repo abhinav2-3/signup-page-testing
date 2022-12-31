@@ -42,6 +42,8 @@ header{
     align-items: center;
     justify-content: space-between;
     border-bottom: 4px solid rgb(255, 136, 0);
+    /* position: sticky;
+    top: 0; */
 }
 
 .brand{
