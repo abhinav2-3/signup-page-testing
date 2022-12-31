@@ -43,19 +43,19 @@
         <h2 class="fh">Sign Up!</h2>
         <form action="post">
             <label for="fname" title="First Name">First Name</label>
-            <input type="text" name="fname" id="fname" placeholder="Enter Your First Name">
+            <input type="text" name="fname" id="fname" placeholder="Enter Your First Name" required>
             <label for="lname" title="Last Name">Last Name</label>
             <input type="text" name="lname" id="lname" placeholder="Enter Your Last Name">
             <label for="email" title="Email">Email</label>
-            <input type="email" name="email" id="email" placeholder="Enter Your Email">
+            <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
             <label for="dob" title="Date Of Birth">Date Of Birth</label>
-            <input type="date" name="dob" id="dob" min="01/01/1920" max="01/01/2015">
+            <input type="date" name="dob" id="dob" min="01-01-1920" max="01-01-2015" required>
             <label for="pass" title="Password">Password</label>
-            <input type="password" name="pass" id="pass" minlength="8" maxlength="16" placeholder="Set Your Password (Minimum 8 characters)">
+            <input type="password" name="pass" id="pass" minlength="8" maxlength="16" placeholder="Set Your Password (Minimum 8 characters)" required>
             <fieldset>
                 <legend>Want to get latest notifications on email?</legend>
                 <label>
-                    <input type="radio" name="noti" value="yes">Yes
+                    <input type="radio" name="noti" value="yes" required>Yes
                 </label>
                 <label>
                     <input type="radio" name="noti" value="no">No
